@@ -2,7 +2,7 @@
 <html>
 <header>
   <title>Delani Studio</title>
-  <link href="/css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all">
+  <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all">
   <link href="css/styles.css" type="text/css" rel="stylesheet">
 </header>
 
@@ -11,13 +11,17 @@
 
     <div class="card-title">
       <div class="header">
-        <img src="images/logo.png">
+        <bg-image>url=
+        </bg-image>
         <h1>WELCOME</h1>
         <h2>TO DELANI STUDIO</h2>
         <p1>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p1>
+        <img src="images/logo.png">
+
       </div>
     </div>
     <div class="card-body">
+
       <h3>ABOUT US</h3>
       <p2>When you work with us you are part of a team of committed collaborators.All aspects of our software
         developement are integrated, interactive and agle.</p2>
@@ -42,28 +46,29 @@
       <img src="images/product_icon.png" description="PRODUCT MANAGEMENT">
 
       <h5>PORTFOLIO</h5>
-      <img src="images/work1.jpg">
-      <img src="images/work2.jpg">
-      <img src="images/work3.jpg">
-      <img src="images/work4.jpg">
-      <img src="images/work5.jpg">
-      <img src="images/work6.jpg">
-      <img src="images/work7.jpg">
-      <img src="images/work8.jpg">
+      <div class="row col-md-3">
+        <img src="images/work1.jpg"> 
+        <img src="images/work2.jpg">
+        <img src="images/work3.jpg">
+        <img src="images/work4.jpg">
+        <img src="images/work5.jpg">
+        <img src="images/work6.jpg">
+        <img src="images/work7.jpg">
+        <img src="images/work8.jpg">
+      </div>
 
 
       <div class="contacts">
         <h6>CONTACT US</h6>
-        <form onsubmit="conversion()">
-          <div class="row col-lg-12">
-          
-              <input id="name" type="text" name="name" placeholder="Name...">
-              <input id="email" type="text" name="email" placeholder="Email...">
-           
+        <div class="row col-lg-6 col-lg-6">
+          <form onsubmit="conversion()">
+            <input id="name" type="text" name="name" placeholder="Name...">
+            <input id="email" type="text" name="email" placeholder="Email...">
             <br>
             <input id="message" type="text" name="message" placeholder="Your message here...">
             <button> submit</button>
-        </form>
+          </form>
+        </div>
       </div>
     </div>
     <div class="card-footer">
