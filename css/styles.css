@@ -1,4 +1,27 @@
 .card-title{
   text-align: center;
+  background-image: url(../images/h_img.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+ 
+  
+}
+.card-footer{
+  text-align: center;
+}
+.services{
+  background-image: url(../images/s_image.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+.contacts{
+  background-image: url(../images/c_image.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  
   
 }
