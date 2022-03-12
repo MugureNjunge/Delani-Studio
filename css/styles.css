@@ -1,8 +1,16 @@
 .card-title{
   text-align: center ;
+  background-size: ;
+  backface-visibility: ;
   background-image: url(../images/h_img.jpg);
-  background-origin: border-box;
+  background-position: ;
+  background-attachment: fixed;
+  
+  
 
+}
+.card-body{
+  text-align: center;
 }
 
 .card-footer{
