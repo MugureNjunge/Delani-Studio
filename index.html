@@ -7,17 +7,17 @@
 </header>
 
 <body>
-  <div class="container">
+  <div class="container cover">
 
-    <div class="card-tite">
-      <div class="header">
-        <img src="images/logo.png">
-        <h1>WELCOME</h1>
-        <h2>TO DELANI STUDIO</h2>
-        <p1>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p1>
-
-
+    <div class="card-title">
+      <img src="images/logo.png">
+      <h1>WELCOME</h1>
+      <h2>TO DELANI STUDIO</h2>
+      <p1>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p1>
+      <div class="logo">
+        <img src="images/mouse_click.png">
       </div>
+
     </div>
     <div class="card-body">
 
@@ -61,13 +61,12 @@
 
       <div class="contacts">
         <h6>CONTACT US</h6>
-        <div class="row col-lg-6 col-lg-6">
-          <form onsubmit="conversion()">
-            <input id="name" type="text" name="name" placeholder="Name...">
-            <input id="email" type="text" name="email" placeholder="Email...">
+        <div class="row col-lg-12 col-md-12">
+          <form onsubmit="userData()">
+            <input id="name" type="text" name="name" placeholder="Name..." class="col-lg-4">
+            <input id="email" type="text" name="email" placeholder="Email..."class="col-lg-4">
             <br>
-            <input id="message" type="text" name="message" placeholder="Your message here...">
-            <button> submit</button>
+            <input class="input col-lg-8" id="message" type="text" name="message" placeholder="Your message here...">
           </form>
         </div>
       </div>
