@@ -4,12 +4,11 @@ function userData() {
   let message = document.getElementById(message).value;
 
 
-  if userData === (name && email && message && submit){
-    alert("name" + , we have received your message.Thank you for contacting us!)
+  if (name.length === 0){
+    alert("Hi" + name +  "we have received your message.Thank you for contacting us!")
   } else {
     alert("All fields must be filled")
   }
 
 }  
-
 

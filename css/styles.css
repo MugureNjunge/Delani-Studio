@@ -1,6 +1,9 @@
-.card-tite{
+.card-title{
   text-align: center;
   background-image: url(../images/h_img.jpg);
+  padding-top: 13em;
+  background-position: center;
+  background-size: cover;
 }
 .card-body{
   text-align: center;
@@ -10,11 +13,25 @@
   text-align: center;
 }
 .services{
-  text-align: center;
-  background-image: url(../images/s_image.jpg);
   
+  background-image: url(../images/s_image.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 5em;
 }
 .contacts{
-  text-align: center;
+  
   background-image: url(../images/c_image.jpg); 
+  background-position: center;
+  background-size: cover;
 }
+.logo{
+  padding-top:5em;
+  padding-bottom:1em
+
+}
+.input{
+  height:300px;
+  
+}
+
