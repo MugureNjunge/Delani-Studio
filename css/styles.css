@@ -14,7 +14,6 @@
   text-align: center;
 }
 .services{
-  
   background-image: url(../images/s_image.jpg);
   background-position: center;
   background-size: cover;
@@ -47,7 +46,11 @@
 }
 .transparent{
 background: transparent;
+color: white;
 }
 .font{
   font-family: "Roboto Condensed", sans-serif;
+}
+::placeholder{
+  color: white;
 }
