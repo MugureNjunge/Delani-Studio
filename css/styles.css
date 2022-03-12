@@ -2,6 +2,7 @@
   text-align: center;
   background-image: url(../images/h_img.jpg);
   padding-top: 13em;
+  color:white;
   background-position: center;
   background-size: cover;
 }
@@ -18,6 +19,7 @@
   background-position: center;
   background-size: cover;
   padding: 5em;
+  color:white;
 }
 .contacts{
   
@@ -25,6 +27,7 @@
   background-position: center;
   background-size: cover;
   padding: 50px;
+  color:white;
 }
 .logo{
   padding-top:5em;
@@ -44,4 +47,7 @@
 }
 .transparent{
 background: transparent;
+}
+.font{
+  font-family: "Roboto Condensed", sans-serif;
 }
