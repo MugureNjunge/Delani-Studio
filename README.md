@@ -2,11 +2,7 @@
 
 **Written by Maureen Njung'e**
 
-This website has information about what Delani Studio does, an about us section,our portfolio and a section that allows yu to ask us any question or leave a comment..
-
-**Set up**
-
-Clone this repo to your desktop, create  Go to the cloned repository, tap on settings tab then tap on pages tab. You will see "link is ready". Click on the link to open.
+This website has information about what Delani Studio does, an about us section,our portfolio and a section that allows you to ask us any question or leave a comment.
 
 **Description**
 
