@@ -7,7 +7,7 @@ This website has information about what Delani Studio does, an about us section,
 **Description**
 
 This is a portfolio website that explains what we do do at Delani Studio. It was made using HTML, CSS ,Javascript and Jquery languages.
-Link to website : 
+Link to website : https://mugurenjunge.github.io/Delani-Studio/
 
 **Bugs**
 
